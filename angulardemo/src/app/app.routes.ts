@@ -7,9 +7,10 @@ import { HeaderComponent } from './component/header/header.component';
 
 import { CartPageComponent } from './component/cart-page/cart-page.component';
 import { OrderPageComponent } from './component/order-page/order-page.component';
+import { AppComponent } from './app.component';
 
 export const routes: Routes = [
-   
+ 
     {
         path:'',title: 'Product View Page',component: ProductViewComponent
     },
